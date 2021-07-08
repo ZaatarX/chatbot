@@ -1,0 +1,114 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "greetings",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "How are you?",
+        "Everything alright?",
+        "All good?",
+        "Everything good?",
+        "What's up?",
+        "What's new?"
+      ],
+      "responses": [
+        "Hello, welcome to X Bank. How can I help?",
+        "Hi, I'm Pini, How can I be of your assistance?",
+        "Greetings, I'm Pini, at your disposal!",
+        "All great! Ready to help!",
+        "Better than ever! How can I help?",
+        "I'm running smoothly! At your service!",
+        "Ready to make your day better!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Goodbye",
+        "bye",
+        "ty",
+        "okay",
+        "ok",
+        "thank you",
+        "thanks",
+        "Alright",
+        "alright",
+        "Okay",
+        "Ok"
+      ],
+      "responses": [
+        "Glad to help.",
+        "You're welcome!",
+        "Have a nice day!",
+        "Until the next time!",
+        "Hope to talk to you soon!",
+        "No Problem!",
+        "Always ready to help!",
+        "Take care!",
+        "Enjoy your day!",
+        "I've enjoyed talking to you",
+        "I look forward to our next meeting!",
+        "See you soon!",
+        "Bye, bye!",
+        "Goodbye!"
+      ]
+    },
+    {
+      "tag": "howdeposit",
+      "patterns": [
+        "How do I make a deposit?",
+        "I don't know how to make a deposit",
+        "How do I check my deposits?",
+        "Deposit",
+        "Deposist",
+        "deposts",
+        "desposit",
+        "depoist"
+      ],
+      "responses": [
+        "Your deposit history is available at www.website.com/account and you'll see all info you need!",
+        "Access www.website.com/account to view all info relating to your deposits."
+      ]
+    },
+    {
+      "tag": "account",
+      "patterns": [
+        "how do I change my password?",
+        "how do I access my account?",
+        "how do I change my profile picture?",
+        "how do I edit my account?"
+      ],
+      "responses": [
+        "Click on: www.website.com/account to know more.",
+        "You can access www.website.com/account"
+      ]
+    },
+    {
+      "tag": "personal",
+      "patterns": ["What's your name?", "Who are you?"],
+      "responses": ["I'm Pini!", "My name is Pini!", "I go by Pini!"]
+    },
+    {
+      "tag": "bottest",
+      "patterns": [
+        "Are you a bot?",
+        "Are you a human?",
+        "Are you a computer?",
+        "Are you a machine?"
+      ],
+      "responses": [
+        "I'm a ChatBot called Pini!",
+        "Beep bop, I'm a robot called Pini!",
+        "Last time I checked I was still one's and zero's..."
+      ]
+    }
+  ]
+}
